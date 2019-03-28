@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Satner Portfolio</title>
+	<title>M.Faress Portfolio</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -19,7 +19,43 @@
 </head>
 
 <body>
-
+<style>
+		#container{
+			margin:0 auto;
+			width:80%;
+			font-family: verdana,arial,sans-serif;
+			font-size:16px;
+		}
+		#modalWindow {
+			position: fixed;
+			font-family: arial,helvetica, sans-serif;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: rgba(0, 0, 0, 0.4);
+			z-index: 99999;
+			opacity:0;
+			transition: opacity 400ms linear;
+			pointer-events: none;
+		}
+		#modalWindow:target {
+			opacity:1;
+			pointer-events: auto;
+		}
+		#modalWindow > div {
+			width:70%;
+			height: 70%;
+			position: relative;
+			margin: 10% auto;
+			
+			border: solid;
+			border-color: black;
+			border-width : 2px;
+			background: white;
+			border-radius: 10px;
+		}		
+	</style>
 	<!--================ Start Header Area =================-->
 	<header class="header_area">
 		<div class="main_menu">
@@ -38,24 +74,16 @@
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+							
 							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
 							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
+								
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
 									<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portfolio Details</a></li>
 								</ul>
 							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
+							
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -76,7 +104,7 @@
 							<h1 class="text-uppercase">I am Mahmoud Fares</h1>
 							<h5 class="text-uppercase">Junior IOS developer</h5>
 							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="#"><span>Hire Me</span></a>
+								<a class="primary_btn" href="contact.html"><span>Hire Me</span></a>
 								<a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
 							</div>
 						</div>
@@ -107,15 +135,7 @@
 						<h2>let’s <br>
 							Introduce about <br>
 							myself</h2>
-						<p>
-							Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven 
-							midst their. Beast creepeth. Fish days.
-						</p>
-						<p>
-							Is give may shall likeness made yielding spirit a itself together created after sea 
-							is in beast beginning signs open god you're gathering whose gathered cattle let. 
-							Creature whales fruit unto meat the life beginning all in under give two.
-						</p>
+						<p> I am IOS Developer 26 years old and my current team focuses on customizing software. my experience developing IOS using Swift 4 and Objective C. </p>
 						<a class="primary_btn" href="#"><span>Download CV</span></a>
 					</div>
 				</div>
@@ -197,17 +217,14 @@
 				</div>
 				<div class="offset-lg-2 col-lg-4 col-md-6">
 					<div class="client-info">
-						<div class="d-flex mb-50">
-							<span class="lage">10</span>
-							<span class="smll">Years Experience Working</span>
-						</div>
+						<div class="d-flex mb-50"><span class="lage">2</span> <span class="smll">Years Experience Working</span></div>
 						<div class="call-now d-flex">
 							<div>
 								<span class="fa fa-phone"></span>
 							</div>
 							<div class="ml-15">
 								<p>call us now</p>
-								<h3>(+1)-800-555-6789</h3>
+								<h3>(+2)01555929770</h3>
 							</div>
 						</div>
 					</div>
@@ -235,7 +252,7 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="img/services/s1.png" alt="">
-						<h4>Wp developing</h4>
+						<h4>IOS developing</h4>
 						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
 					</div>
 				</div>
@@ -249,15 +266,15 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="img/services/s3.png" alt="">
-						<h4>Web design</h4>
+						<h4>wordpress </h4>
 						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="img/services/s4.png" alt="">
-						<h4>seo optimize</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+						<h4>Adobe XD</h4>
+						<p>Make Prototypes to understand design and bussiness developemts</p>
 					</div>
 				</div>
 			</div>
@@ -276,169 +293,283 @@
 					</div>
 				</div>
 			</div>
-			<div class="filters portfolio-filter">
-				<ul>
-					<li class="active" data-filter="*">all</li>
-					<li data-filter=".popular">popular</li>
-					<li data-filter=".latest"> latest</li>
-					<li data-filter=".following">following</li>
-					<li data-filter=".upcoming">upcoming</li>
-				</ul>
-			</div>
-	
+		
 			<div class="filters-content">
 				<div class="row portfolio-grid justify-content-center">
 					<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p1.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p1.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
+                                <a href="#modalWindow" >
+								<img class="img-fluid w-100"  src="img/portfolio/p1.jpg" alt="Sat-Finder">
+										<div class="overlay"></div>
+									
 								</a>
+                                
+                                <a href="#modalWindow" style="font-family: fantasy;">More Info</a>
+
+
+	<div id="modalWindow">
+		<div>
+			<br>
+			<div display:inline-block;>
+            <img style="height: 60%;width: 60%;float: left;" src="img/portfolio/1.png" alt="SAT-Finder" ></div>
+            <div display:inline-block;>
+				</div>
+                <P>sdfidjsdnmsajsijd</P>
+               <br><br>
+                <a href="www.google.com" >
+                    
+                <img style="width: 20%;height: 15%;text-align: center" src="img/portfolio/download.png">
+                </a>
+            <br>
+               
+			         <a href="#close" style="margin-left: 50%">Close modal</a>
+
+		</div>
+	</div>
+
 							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">minimal design</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p2.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Paint wall</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
+							
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p3.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p3.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
+                                <a href="#modalWindow" >
+								<img class="img-fluid w-100"  src="img/portfolio/p1.jpg" alt="Sat-Finder">
+										<div class="overlay"></div>
+									
 								</a>
+                                
+                                <a href="#modalWindow" style="font-family: fantasy;">More Info</a>
+
+
+	<div id="modalWindow">
+		<div>
+			<br>
+			<p>
+				This is the modal. Put any text or controls here.
+				<br><br>
+				<button type="button">Just a button for display purposes only!</button>
+                
+                <br><br>
+                <a href="#close">Close modal</a>
+			</p>
+		</div>
+	</div>
+
 							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">female light</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
+							
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all popular">
+						<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p4.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p4.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
+                                <a href="#modalWindow" >
+								<img class="img-fluid w-100"  src="img/portfolio/p1.jpg" alt="Sat-Finder">
+										<div class="overlay"></div>
+									
 								</a>
+                                
+                                <a href="#modalWindow" style="font-family: fantasy;">More Info</a>
+
+
+	<div id="modalWindow">
+		<div>
+			<br>
+			<p>
+				This is the modal. Put any text or controls here.
+				<br><br>
+				<button type="button">Just a button for display purposes only!</button>
+                
+                <br><br>
+                <a href="#close">Close modal</a>
+			</p>
+		</div>
+	</div>
+
 							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">fourth air</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
+							
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all following">
+						<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p5.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
+                                <a href="#modalWindow" >
+								<img class="img-fluid w-100"  src="img/portfolio/p1.jpg" alt="Sat-Finder">
+										<div class="overlay"></div>
+									
 								</a>
+                                
+                                <a href="#modalWindow" style="font-family: fantasy;">More Info</a>
+
+
+	<div id="modalWindow">
+		<div>
+			<br>
+			<p>
+				This is the modal. Put any text or controls here.
+				<br><br>
+				<button type="button">Just a button for display purposes only!</button>
+                
+                <br><br>
+                <a href="#close">Close modal</a>
+			</p>
+		</div>
+	</div>
+
 							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">together sign</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
+							
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all upcoming">
+						<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p5.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p6.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
+                                <a href="#modalWindow" >
+								<img class="img-fluid w-100"  src="img/portfolio/p1.jpg" alt="Sat-Finder">
+										<div class="overlay"></div>
+									
 								</a>
+                                
+                                <a href="#modalWindow" style="font-family: fantasy;">More Info</a>
+
+
+	<div id="modalWindow">
+		<div>
+			<br>
+			<p>
+				This is the modal. Put any text or controls here.
+				<br><br>
+				<button type="button">Just a button for display purposes only!</button>
+                
+                <br><br>
+                <a href="#close">Close modal</a>
+			</p>
+		</div>
+	</div>
+
 							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">multiply fowl</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
+							
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all upcoming following">
+						<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p7.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p7.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
+                                <a href="#modalWindow" >
+								<img class="img-fluid w-100"  src="img/portfolio/p1.jpg" alt="Sat-Finder">
+										<div class="overlay"></div>
+									
 								</a>
+                                
+                                <a href="#modalWindow" style="font-family: fantasy;">More Info</a>
+
+
+	<div id="modalWindow">
+		<div>
+			<br>
+			<p>
+				This is the modal. Put any text or controls here.
+				<br><br>
+				<button type="button">Just a button for display purposes only!</button>
+                
+                <br><br>
+                <a href="#close">Close modal</a>
+			</p>
+		</div>
+	</div>
+
 							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">green heaven</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
+							
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all following">
+						<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p8.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p8.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
+                                <a href="#modalWindow" >
+								<img class="img-fluid w-100"  src="img/portfolio/p1.jpg" alt="Sat-Finder">
+										<div class="overlay"></div>
+									
 								</a>
+                                
+                                <a href="#modalWindow" style="font-family: fantasy;">More Info</a>
+
+
+	<div id="modalWindow">
+		<div>
+			<br>
+			<p>
+				This is the modal. Put any text or controls here.
+				<br><br>
+				<button type="button">Just a button for display purposes only!</button>
+                
+                <br><br>
+                <a href="#close">Close modal</a>
+			</p>
+		</div>
+	</div>
+
 							</div>
-							<div class="short_info">
-								<h4>fly male</h4>
-								<p>Animated, portfolio</p>
-							</div>
+							
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all upcoming">
+						<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p9.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p9.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
+                                <a href="#modalWindow" >
+								<img class="img-fluid w-100"  src="img/portfolio/p1.jpg" alt="Sat-Finder">
+										<div class="overlay"></div>
+									
 								</a>
+                                
+                                <a href="#modalWindow" style="font-family: fantasy;">More Info</a>
+
+
+	<div id="modalWindow">
+		<div>
+			<br>
+			<p>
+				This is the modal. Put any text or controls here.
+				<br><br>
+				<button type="button">Just a button for display purposes only!</button>
+                
+                <br><br>
+                <a href="#close">Close modal</a>
+			</p>
+		</div>
+	</div>
+
 							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">season face</a></h4>
-								<p>Animated, portfolio</p>
+							
+						</div>
+					</div>
+						<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+                                <a href="#modalWindow" >
+								<img class="img-fluid w-100"  src="img/portfolio/p1.jpg" alt="Sat-Finder">
+										<div class="overlay"></div>
+									
+								</a>
+                                
+                                <a href="#modalWindow" style="font-family: fantasy;">More Info</a>
+
+
+	<div id="modalWindow">
+		<div>
+			<br>
+			<p>
+				This is the modal. Put any text or controls here.
+				<br><br>
+				<button type="button">Just a button for display purposes only!</button>
+                
+                <br><br>
+                <a href="#close">Close modal</a>
+			</p>
+		</div>
+	</div>
+
 							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -596,7 +727,7 @@
 			<div class="row footer_bottom justify-content-center">
 				<p class="col-lg-8 col-sm-12 footer-text">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 			</div>
 		</div>
